@@ -1,0 +1,62 @@
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div id="search" class="span12">
+			<div id="filters" class="well well-small">
+
+			</div>
+			<form class="form-search">
+				<div class="input-append">
+					<input type="text" class="span2 search-query">
+					<button type="submit" class="btn">Search</button>
+				</div>
+			</form>
+		</div><!--end span-->
+	</div><!--end row-->
+</div><!--end container-->
+<div id="results-grid" class="container-fluid results">
+	<img class="loading" src="<%= image_path('loader.gif') %>" />
+</div>
+
+<script>
+	$(document).ready(function() {
+	  $.ajax({
+	    url: "http://api.yummly.com/v1/api/recipes?_app_id=8883e909&_app_key=4d536bbfc100aa3f05e713412c59e7e5&maxResult=12",
+	    success: displayGrid,
+	    dataType: "jsonp"
+	  }); 
+	});
+</script>
+<script id="grid-tpl" type="text/x-handlebars-template">
+	
+	{{#everyNth matches 4}}
+		{{#if isModZeroNotFirst }}
+			</div><!--end row-->
+		{{/if}}
+		{{#if isModZero}}
+			<div class="row-fluid">
+		{{/if}}
+			<div id="{{id}}" class="span3">
+				<div class="img-container">
+					<img alt="{{recipeName}}" src="{{getLargeImage imageUrlsBySize}}" />
+				</div>
+				<h3 class="recipe-name"><a href="/recipes/{{id}}">{{recipeName}}</a></h3>
+				<div class="details">	
+					<div class="ingredients">{{ingredients}}</div>
+					<div class="rating-container">
+						<div class="source pull-left"><a href="{{sourceURL}}">{{sourceDisplayName}}</a></div>
+						<div class="rating rating-{{rating}} pull-right">
+							{{{insertStars rating}}}
+						</div>
+					</div><!--end rating container-->
+					<!--div class="yums">{{yums}}</div-->
+				</div><!--end details container-->
+				<div class="cook-time">{{parseCookTime totalTimeInSeconds}} minutes, {{numIngredients}} ingredients</div>
+			</div><!--end span3-->
+		{{#if isLast}}
+			</div><!--end row-->
+		{{/if}}
+	{{/everyNth}}
+	<div class="attribution">
+		{{{attribution.html}}}
+	</div>
+</script>

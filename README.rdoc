@@ -1,0 +1,41 @@
+#Project Title: Weeqly
+
+##Tagline: Make time to cook more.
+
+Description: Plan your week's menus, create your shopping list and take it with you on any device. In minutes.
+
+Target Audience: Busy professionals who want to cook more, but don't have a lot of time to spend planning and shopping - those who want to spend more time doing and less time researching and planning.
+
+Users can:
+
+	-Search recipes from all over the web (blogs, recipe sites, magazines, etc.) using the Yummly API.
+
+	-Create an account and save recipes to a weekly menu.
+
+	-Generate a shopping list of all ingredients in all recipes in their weekly menu.
+
+	-Edit, add or delete items from the shopping list based on what's in their pantry.
+
+	-View the shopping list on any device and text or email it.
+
+	-Share recipes on Pinterest, Facebook or Twitter (may be out of scope for this version).
+
+APIs: Yummly
+
+#How It Works
+
+##Who has time to cook?
+We want to cook more, but who has time to search a million recipe sites, put all of the ingredients on a shopping list, and go back to find the recipes again when it's time to cook? Take out sounds good. But with Weeqly, you can quickly find the recipes you like, pull them into a weekly menu and generate your shopping list for the whole week, all at once. Go to the store, come back and your recipes are waiting for you in your weekly menu.
+
+So let's get cooking!
+
+##Find Recipes Fast
+Feel like pasta? Need a vegan option for a guest? How about a perfect dessert for the Holidays? No problem! Powered by Yummly<sup>TM</sup>, search recipes from all over the web in one place. Find exactly what you like by flavor, occasion, cuisine, diet, nutrition and more.
+
+##Plan Your Weekly Menu
+Grab the recipes you like and add them to your personal weekly menu. They'll be waiting for you when you're ready to get cooking.
+
+##All recipes, one shopping list, one click
+Create a shopping list for all of your recipes in one click. Delete the items you already have in the pantry, then bring it with you to the store on your phone or tablet.
+
+Psst...you can even email or text it to your significant other, so you don't have to put on pants.

@@ -1,0 +1,13 @@
+<ul>
+	<% @shopping_lists.each do |shopping_list| %>
+		<li><a href="#"><%= shopping_list.name %></a></li>
+	<% end %>
+</ul>
+
+<!--new shopping list form-->
+<%= form_for @shopping_list do |f| %>
+	<%= f.label :name, "Name" %>
+	<%= f.text_field :name %>
+	<%= hidden_field_tag :recipe_id, recipe_id[this doesn't work yet'] %>
+	<%= f.submit "Create shopping list", {:class => "btn"} %>
+<% end %>

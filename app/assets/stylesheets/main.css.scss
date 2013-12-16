@@ -1,0 +1,247 @@
+// Place all the styles related to the main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@mixin vendor-prefix($name, $argument) {
+  -webkit-#{$name}: #{$argument};
+  -ms-#{$name}: #{$argument};
+  -moz-#{$name}: #{$argument};
+  -o-#{$name}: #{$argument};
+  #{$name}: #{$argument};
+}
+/*orange accent color: #e16120*/
+/*gold accent color: #ffd700*/
+/*make that a mixin when i learn how*/
+
+body {
+	font-family:'Open Sans', Helvetica, Arial, sans-serif;
+}
+.brand {
+	color:gold;
+	font-family:'Pacifico', sans-serif;
+}
+.navbar {
+	margin-bottom:0;
+}
+.navbar .brand {
+	color:gold;
+}
+.hero-unit {
+	@include vendor-prefix(border-radius, 0);
+}
+.index .hero-unit {
+	position:relative;
+	background:url(http://static.yummly.com/promoted/homepage/2013-11-11/hero.jpg) top center no-repeat;
+	background-size: cover;
+	color:#fff;
+	text-align:center;
+	margin-bottom:0;
+	overflow:hidden;
+}
+.hero-unit h1, .hero-unit p, .hero-unit h2 {
+	text-shadow:2px 2px 8px #111;
+}
+.hero-content {
+	margin-bottom:4em;
+}
+.hero-unit h1 {
+	margin-bottom: .5em;
+	color:gold;
+}
+.hero-unit h2 {
+	font-size:2em;
+}
+.hero-unit p {
+	font-size:1.25em;
+	font-weight:400;
+	margin-bottom:2em;
+}
+.hero-unit a.btn {
+	font-size:1.5em;
+	font-weight:700;
+}
+.hero-unit .hero-bottom {
+	height:3em;
+	width:100%;
+	background:#444;
+	position:absolute;
+	bottom:0;
+	left:0;
+	margin:0;
+	text-align:center;
+}
+.hero-unit .hero-bottom .form-search {
+	margin-top:.6em;
+}
+
+/*============Grid Results=============*/
+.results {
+	background:#eae8e0;
+	padding-top:2em;
+	padding-bottom:2em;
+	margin-top:0;
+
+}
+.results .row-fluid {
+	margin-bottom:2em;
+}
+.results .span3 {
+	position:relative;
+	background:#fff;
+	min-height:480px;
+	overflow:hidden;
+}
+.results .img-container {
+	width:100%;
+	height:150px;
+	overflow:hidden;
+	margin-bottom:0;
+}
+.results .img-container img {
+	width:100%;
+	min-height:150px;
+}
+.results .details {
+	font-size:.8em;
+	padding:2%;
+	overflow:hidden;
+}
+.results h3.recipe-name {
+	display:block;
+	background:#444;
+	padding:2%;
+	width:96%;
+	font-size:1.5em;
+	line-height:1.25em;
+	min-height:3em;
+	margin-top:0;
+}
+.results .recipe-name a {
+	color:#eae8e0;
+}
+.results .cook-time {
+	background:#dedede;
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:96%;
+	padding:2%;
+	font-size:.8em;
+	border-top:2px solid #eee;
+	height:24px;
+}
+.results .ingredients {
+	margin-bottom:1em;
+}
+.results .rating-container {
+	position:absolute;
+	bottom:26px;
+	width:96%;
+}
+.results .source {
+	line-height:32px;
+	margin-bottom:1em;
+}
+.results .source a {
+	color:#ffd700;
+	font-weight:700;
+	font-size:1.25em;
+}
+.rating {
+	width:96px;
+	height:32px;
+	line-height:32px;
+	font-size:1.5em;
+	color:gold;
+}
+/*.rating-0 {
+	background:url(star-ratings.png) 0 -373px no-repeat;	
+}
+.rating-1 {
+	background:url(star-ratings.png) 0 -299px no-repeat;	
+}
+.rating-2 {
+	background:url(star-ratings.png) 0 -224px no-repeat;	
+}
+.rating-3 {
+	background:url(star-ratings.png) 0 -149px no-repeat;	
+}
+.rating-4 {
+	background:url(star-ratings.png) 0 -74px no-repeat;	
+}
+.rating-5 {
+	background:url(star-ratings.png) 0 0 no-repeat;	
+}*/
+
+/*========= How It Works ==========*/
+.how_it_works .hero-unit {
+	background:url(http://d1j9s593l27ozf.cloudfront.net/wp-content/uploads/2013/03/hero-howitworks1.jpg);
+	margin-bottom:0;
+	border-bottom:20px solid gold;
+	height:96px;
+	overflow:hidden;
+}
+.how_it_works .hero-unit h1 {
+	color:#fff;
+}
+.how_it_works .hero-unit h1 span.light {
+	font-weight:300;
+}
+.how_it_works .hero {
+	background:#f5f4ee;
+	padding:5%;
+}
+.how_it_works .hero.alt {
+	background:#eeede6;
+}
+.steps {
+	font-size:9em;
+	font-weight:700;
+	color:#fff;
+	height:200px;
+	width:200px;
+	margin:10%;
+	
+
+	text-align:center;
+	line-height:200px;
+}
+.circle {
+	border-radius:150px;
+	border:8px solid #fff;
+
+}
+.one {
+	background:#36C3E0;
+}
+.two {
+	background:#ffd700;
+}
+.three {
+	background:#e16120;
+}
+
+/*========== Footer ===========*/
+footer {
+	background:#444;
+	height:2em;
+	width:96%;
+	padding:2%;
+	color:#fff;
+}
+
+.show .rating {
+	width:108px;
+}
+.hide-ingredient {
+	display:none;
+}
+.show ul {
+	list-style-type:none;
+}
+.show ul li {
+	display:block;
+	margin-bottom:1em;
+}
+
+

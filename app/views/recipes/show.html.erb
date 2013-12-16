@@ -1,0 +1,87 @@
+<a href="<%= recipes_path %>">Back to Search Results</a>
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div id="recipe-result" class="span12" data-user-id="<%= @user_id %>">
+		
+		</div><!--end recipe-result-->
+		<div id="add-shoppinglist-modal" class="modal hide fade"></div><!--end modal-->
+	</div><!--end row-->
+</div><!--end container -->
+
+
+<script id="single-recipe-tpl" type="text/x-handlebars-template">
+		<div class="row-fluid">
+			<div id="recipe-name" class="span12" data-yid="{{id}}">
+				<h2>{{name}}</h2>
+				</div><!--end span-->
+		</div><!--end row-->
+		<div class="row-fluid">
+			<div class="span4">
+				<img src="{{images.0.hostedLargeUrl}}">
+			</div>
+			<div class="span4">
+				<div class="rating rating-{{rating}}">
+					{{{insertStars rating}}}
+				</div>
+				<p>Total Time: {{totalTime}}</p>
+
+				<a id="#add-shoppinglist" href="#add-shoppinglist-modal" role="button" class="btn" data-toggle="modal">+ Add to Shopping List <i class="icon-shopping-cart"></i></a>
+				<!--div id="add-shoppinglist-modal" class="modal hide fade"></div--><!--end modal-->
+
+			</div>
+		</div><!--end row-->
+		<div class="row-fluid">
+			<div class="span8">
+				<ul>
+					{{#each ingredientLines}}
+					<li>{{this}}</li>
+					{{/each}}
+				</ul>
+			</div>
+		</div><!--end ingredient row-->
+		<div class="row-fluid">
+			<div class="span8">
+				<a class="btn" href="{{source.sourceRecipeUrl}}" target="_blank">View the full recipe on {{source.sourceDisplayName}}</a>
+			</div>
+		</div><!--end ingredient row-->
+	<div class="attribution">
+		{{{attribution.html}}}
+	</div>
+	
+</script>
+
+<script id="add-shoppinglist-tpl" type="text/x-handlebars-template">	
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h3>Add to shopping list:</h3>
+  </div>
+  <div class="modal-body">
+    <ul>
+    	{{#each lists}}
+    		<li><a class="add-to-list-link" href="#" data-list-id="{{id}}">{{name}}</a></li>
+    	{{/each}}
+    </ul>
+  </div>
+  <div class="modal-footer">
+  	<p>Or create a new shopping list</p>
+  	<form method="post" action="/shopping_lists">
+  		<input type="text" id="" name="" />
+  		<input type="hidden" id="shopping_list[recipe_id]" name="shopping_list[recipe_id]" />
+  		<input type="submit" />
+  	</form>
+    <a href="#" class="btn">Close</a>
+    <a href="#" class="btn btn-primary">Save changes</a>
+  </div>	
+</script>
+<script>
+	$(document).ready(function() {
+		$.ajax({
+		    url: "http://api.yummly.com/v1/api/recipe/<%= @yummly_id %>",
+		    data: recipe_params,
+		    success: displayRecipe,
+		    dataType: "jsonp"
+		}); 
+		getShoppingList();
+		
+	});
+</script>

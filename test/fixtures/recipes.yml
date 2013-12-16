@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  yummly_id: MyString
+  name: MyString
+  url: MyText
+
+two:
+  yummly_id: MyString
+  name: MyString
+  url: MyText

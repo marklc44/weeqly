@@ -1,0 +1,35 @@
+<div class="container-fluid">
+	<div class="row-fluid">
+		<h1><%= @shopping_list.name %></h1>
+	</div><!--end row-->
+	<div class="row-fluid">
+		<div class="span12">
+			<h3>Ingredients on this list</h3>
+			<ul>
+			<% @recipes.each do |recipe| %>
+				<% recipe.ingredients.each do |ingredient| %>
+				<li><a class="btn hide-btn" href="#">Remove</a> <%= ingredient.name %></li>
+				<% end %>
+			<% end %>
+			</ul>
+		</div>
+	</div><!--end row-->
+	<div class="row-fluid">
+		<div class="span12">
+			<h3>Recipes on this Shopping List</h3>
+			<ul>
+			<% @recipes.each do |recipe| %>
+				<li><a href="<%= recipe_path(recipe.yummly_id) %>"><%= recipe.name %></a> <%= button_to "Remove from list", recipe_path(recipe), :method => :delete, :class => "btn btn-danger" %></li>
+			<% end %>
+			</ul>
+		</div><!--end recipe list-->
+	</div>
+</div><!--end container-->
+<script>
+	$(document).ready(function() {
+		$('.hide-btn').click(function(e) {
+			e.preventDefault();
+			$(this).parent().addClass('hide-recipe');
+		});
+	});
+</script>

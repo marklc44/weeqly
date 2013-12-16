@@ -1,0 +1,5 @@
+<%= form_for @shopping_list do |f| %>
+	<%= f.label :name, "Name" %>
+	<%= f.text_field :name %>
+	<%= f.submit "Create shopping list", {:class => "btn"} %>
+<% end %>
