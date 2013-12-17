@@ -3,15 +3,19 @@
 		<h1 class="brand">Weeqly</h1>
 		<h2>Make time to cook more.</h2>
 		<p>Plan your week's menus, create your shopping list and take it with you on any device. In minutes.</p>
-		<a class="btn btn-primary btn-large" href="<%= get_started_path %>">Get Started</a>
+		<% if user_signed_in? %>
+		<a class="btn btn-primary btn-large" href="<%= recipes_path %>">Find Recipes</a>
+		<% else %>
+		<a class="btn btn-primary btn-large" href="<%= new_user_registration_path %>">Get Started</a>
+		<% end %>
 	</div>
 	<div class="hero-bottom">
-		<form class="form-search">
+		<!--form class="form-search">
 			<div class="input-append">
 				<input type="text" class="span2 search-query">
 				<button type="submit" class="btn">Search</button>
 			</div>
-		</form>
+		</form-->
 	</div><!--end hero-bottom-->
 </div><!--end hero-->
 <div id="results-grid" class="container-fluid results">

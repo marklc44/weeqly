@@ -28,7 +28,6 @@ Handlebars.registerHelper('getLargeImage', function(imageUrlsBySize) {
 //handlebar helper for cook time
 Handlebars.registerHelper('parseCookTime', function(cookTime) {
   var time = cookTime/60;
-  console.log(time);
   return time;
 });
 //handlebars helper for number of ingredients

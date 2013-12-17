@@ -21,7 +21,16 @@ body {
 	font-family:'Pacifico', sans-serif;
 }
 .navbar {
+	position:fixed;
+	top:0;
+	left:0;
 	margin-bottom:0;
+	z-index:99999;
+	width:100%;
+	max-height:40px;
+}
+.navbar-inner {
+	@include vendor-prefix(border-radius, 0);
 }
 .navbar .brand {
 	color:gold;
@@ -243,5 +252,33 @@ footer {
 	display:block;
 	margin-bottom:1em;
 }
+
+/*==== Page Heroes ===*/
+
+.hero-unit.page-hero {
+	color:#fff;
+	border-bottom:20px solid gold;
+	text-align:left;
+	margin-bottom:2em;
+}
+.hero-unit.page-hero.recipes {
+	background:url(http://bs1.yummly.com/wp-content/uploads/2013/04/hero-about1.jpg) top left no-repeat;
+}
+.hero-unit.page-hero.recipe {
+	background:url(http://d1j9s593l27ozf.cloudfront.net/wp-content/uploads/2013/03/hero-hungry.jpg) bottom left no-repeat;
+}
+.hero-unit.page-hero.shopping-lists {
+	background:url(http://d1j9s593l27ozf.cloudfront.net/wp-content/uploads/2013/04/hero-press1.jpg) bottom left no-repeat;
+}
+.hero-unit.page-hero.shopping-list {
+	background:url(http://d1j9s593l27ozf.cloudfront.net/wp-content/uploads/2013/03/hero-jobs1.jpg) top left no-repeat;
+}
+
+/*======= Recipe Show ========*/
+
+#recipe-result img, #recipe-result .ingredients, #recipe-result .btn {
+	margin-bottom:2em;
+}
+
 
 

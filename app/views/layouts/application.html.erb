@@ -19,6 +19,10 @@
 				class="active" 
 			<% end %>
 	  ><a href="<%= how_it_works_path %>">How It Works</a></li>
+    <li <% if params[:controller] == "recipes" and params[:action] == "index" %>
+        class="active" 
+      <% end %>
+    ><a href="<%= recipes_path %>">Find Recipes</a></li>
 	  
     </ul>
     <div class="pull-right">

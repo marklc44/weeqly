@@ -1,16 +1,17 @@
+<%= render "main/hero" %>
 <div class="container-fluid">
 	<div class="row-fluid">
 		<div class="span12">
 			<h2>User Profile</h2>
 			<h3>User name: <%= @user.email %></h3>
 
-			<div class="well well-small span6">
+			<div id="shopping-lists" class="well well-small span6">
 				<h4>Shopping Lists</h4>
 				<ul>
 					<% @shopping_lists.each do |shopping_list| %>
 						<li
 						><a href="<%= shopping_list_path(shopping_list) %>"><%= shopping_list.name %></a>
-						<%= button_to "Remove", shopping_list_path(shopping_list), :method => :delete, :class => "btn btn-danger" %>
+						<%= button_to "Delete List", shopping_list_path(shopping_list), :method => :delete, :class => "btn btn-danger btn-mini" %>
 						</li>
 					<% end %>
 				</ul>

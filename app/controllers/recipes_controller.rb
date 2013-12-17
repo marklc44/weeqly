@@ -4,10 +4,14 @@ class RecipesController < ApplicationController
 	def index
 		# display ajax call results
 		# filter results; also w/api
+		@page_title = "Find recipes"
+		@page_class = "recipes"
 	end
 
 	def show
 		# look up individual recipe by ID on Yummly, display data w/ recipe info in iframe
+		@page_title = "Recipes"
+		@page_class = "recipe"
 		@yummly_id = params[:id]
 		@user_id = get_user
 	end

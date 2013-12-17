@@ -1,5 +1,7 @@
+<%= render "main/hero" %>
 <div class="container-fluid">
 	<div class="row-fluid">
+		<a href="<%= recipes_path %>">Find more recipes to add to your shopping list <i class="icon-chevron-right"></i></a>
 		<h1><%= @shopping_list.name %></h1>
 	</div><!--end row-->
 	<div class="row-fluid">
@@ -23,6 +25,7 @@
 			<% end %>
 			</ul>
 		</div><!--end recipe list-->
+		<%= button_to "Delete this List", shopping_list_path(@shopping_list), :method => :delete, :class => "btn btn-danger btn-mini" %>
 	</div>
 </div><!--end container-->
 <script>

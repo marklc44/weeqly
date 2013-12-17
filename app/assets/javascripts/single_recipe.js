@@ -6,6 +6,7 @@ var recipeJSON;
 var ingredientJSON;
 var shopping_listJSON;
 var recipeResult;
+var global_yummly_id;
 
 //this is hackish - find a better way to pass from controller
 var user_id = parseInt($('#recipe-result').attr('data-user'));
@@ -13,6 +14,7 @@ var user_id = parseInt($('#recipe-result').attr('data-user'));
 function displayRecipe(results) {
 	console.log(results);
 	recipeResult = results;
+	global_yummly_id = results.id;
 	var source = $("#single-recipe-tpl").html();
 	var template = Handlebars.compile(source);
 	var context = results;
@@ -21,9 +23,7 @@ function displayRecipe(results) {
 
 	recipeJSON = buildRecipe(results);
 	console.log(recipeJSON);
-	shopping_listJSON = buildShopping_list(results, user_id);
 	sendRecipe(recipeJSON);
-	//createModal(results);
 
 	recipeResult = results;
 }
@@ -49,17 +49,6 @@ function buildRecipe(obj, user_id) {
 	return recipeJSON = JSON.stringify(recipe);
 }
 
-//this is currently undefined with the check vals
-function buildShopping_list(obj, user_id, list_name) {
-	var shopping_list = {};
-	user_id = user_id || null;
-	list_name = list_name || '';
-
-	shopping_list.name = list_name;
-	shopping_list.recipe_id = obj.id;
-	shopping_list.user_id = user_id;
-	return shopping_listJSON = JSON.stringify(shopping_list);
-}
 function sendRecipe(obj) {
 	$.ajax({
 		type: 'POST',
@@ -76,6 +65,7 @@ function sendRecipe(obj) {
 function recipeSuccess() {
 	console.log('Recipe sent to controller');
 }
+
 //save the results obj somewhere I can use it?
 function getShoppingList() {
 	$.ajax({
@@ -84,13 +74,24 @@ function getShoppingList() {
 		success: createModal,
 		dataType: 'json',
 		error: function (xhr, ajaxOptions, thrownError) {
-        	console.log(xhr.responseText);
+        	console.log('Error loading shopping lists');
    		},
 		headers: {
 			'Content-Type': 'application/json',
 			'Accept': 'application/json'
 		}
 	});
+}
+
+//this is currently undefined with the check vals
+function buildShopping_list(user_id, list_name) {
+	var shopping_list = {};
+	user_id = user_id || null;
+	list_name = list_name || '';
+
+	shopping_list.name = list_name;
+	shopping_list.user_id = user_id;
+	return shopping_listJSON = JSON.stringify(shopping_list);
 }
 
 function createModal(obj) {
@@ -103,6 +104,17 @@ function createModal(obj) {
 		var html = template(context);
 		console.log(html);
 		$('#add-shoppinglist-modal').html(html);
+		$('#submit-new-list').click(function() {
+			$('#hidden-yummly-id').val(global_yummly_id);
+			var user_id = $('#recipe-result').attr('data-user-id');
+			var shopping_list_name = $('#shopping-list-name').val();
+			shopping_listJSON = buildShopping_list(user_id, shopping_list_name);
+			addNewShoppingList(shopping_listJSON);
+			var shopping_list_id = parseInt($(this).attr('data-list-id'));
+			var recipe_id = $('#recipe-name').attr('data-yid');
+			addRecipeToShoppingList(recipe_id, shopping_list_id);
+		});
+		
 		$('.add-to-list-link').click(function(e) {
 			e.preventDefault();
 			var shopping_list_id = parseInt($(this).attr('data-list-id'));
@@ -118,11 +130,27 @@ function createModal(obj) {
 	}
 	
 }
+function addNewShoppingList(obj) {
+	$.ajax({
+		type: 'POST',
+		url: '/shopping_lists',
+		data: obj,
+		success: newShoppingListSuccess,
+		dataType: 'json',
+		headers: {
+			'Content-Type': 'application/json',
+			'Accept': 'application/json'
+		}
+	});
+}
+function newShoppingListSuccess() {
+	console.log('New shopping list sent to controller');
+}
 
 function addRecipeToShoppingList(recipe_id, shopping_list_id) {
 	var obj = {
 		'yummly_id' : recipe_id,
-		'shopping_list_id' : shopping_list_id
+		'shopping_list_id' : shopping_list_id || ''
 	};
 	var recipe_on_shopping_list = JSON.stringify(obj);
 	
@@ -141,5 +169,5 @@ function addRecipeToShoppingList(recipe_id, shopping_list_id) {
 }
 function addToListSuccess() {
 	console.log('Recipe on Shopping List sent to controller');
-	//this is where I change the modal to show success
+	$('#recipe-to-shopping-list-success').toggleClass('hide');
 }
