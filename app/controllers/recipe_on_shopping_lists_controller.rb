@@ -1,7 +1,14 @@
 class RecipeOnShoppingListsController < ApplicationController
     def create
+        user = current_user
         recipe_on_shopping_list = RecipeOnShoppingList.new
-        recipe_on_shopping_list.shopping_list = ShoppingList.find(params[:shopping_list_id])
+        
+        if params[:shopping_list_id] != ""
+            recipe_on_shopping_list.shopping_list = ShoppingList.find(params[:shopping_list_id])
+        else
+            new_shopping_list = ShoppingList.where(:user_id => user.id).last
+            recipe_on_shopping_list.shopping_list = new_shopping_list
+        end
         recipe_on_shopping_list.recipe = Recipe.where(:yummly_id => params[:yummly_id]).first
         recipe_on_shopping_list.save
 
