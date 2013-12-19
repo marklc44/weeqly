@@ -42,6 +42,7 @@ class ShoppingListsController < ApplicationController
 		@page_class = "shopping-list"
 		@shopping_list = ShoppingList.find(params[:id])
 		@recipes = @shopping_list.recipes
+
 	end
 
 	def destroy

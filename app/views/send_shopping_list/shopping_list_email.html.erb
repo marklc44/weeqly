@@ -1,0 +1,23 @@
+<p>
+    Hi, <%= @user.email %>!
+</p>
+
+<p>Here is your shopping list from weeqly:</p>
+<h3><a href="<%= shopping_list_url(@shopping_list) %>"><%= @shopping_list.name %></a></h3>
+<ul>
+<% @recipes.each do |recipe| %>
+	recipe.ingredients.each do |ingredient| %>
+		<li><%= ingredient.name %></li>
+	<% end %>
+<% end %>
+</ul>
+
+<p>
+    Time to go shopping! Thanks for using Weeqly!
+</p>
+
+<p>Sincerely,<br>The Weeqly Team</p>
+
+<p>
+    <a href="<%= root_url %>">Find more recipes</a>
+</p>

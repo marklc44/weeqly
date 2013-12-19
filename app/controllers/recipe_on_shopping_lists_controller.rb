@@ -13,7 +13,8 @@ class RecipeOnShoppingListsController < ApplicationController
         recipe_on_shopping_list.save
 
         if recipe_on_shopping_list.save
-	        redirect_to root_path
+            # here also I can respond with json and send recipe/shopping_list back to the page
+	        render :nothing => true
 	    else
 	    	render :new
 	    end

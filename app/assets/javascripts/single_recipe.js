@@ -160,6 +160,7 @@ function addRecipeToShoppingList(recipe_id, shopping_list_id) {
 		url: '/recipe_on_shopping_lists',
 		data: recipe_on_shopping_list,
 		success: addToListSuccess,
+		error: addToListError,
 		dataType: 'json',
 		headers: {
 			'Content-Type': 'application/json',
@@ -170,4 +171,7 @@ function addRecipeToShoppingList(recipe_id, shopping_list_id) {
 function addToListSuccess() {
 	console.log('Recipe on Shopping List sent to controller');
 	$('#recipe-to-shopping-list-success').toggleClass('hide');
+}
+function addToListError(xhr, ajaxOptions, thrownError) {
+	$('#recipe-to-shopping-list-error').toggleClass('hide');
 }
