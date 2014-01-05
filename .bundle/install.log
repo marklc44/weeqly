@@ -1,0 +1,226 @@
+# Logfile created on 2013-12-28 09:20:27 -0800 by logger.rb/41954
+I, [2013-12-28T09:20:27.496952 #78916]  INFO -- : 0:  rake (10.1.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/rake-10.1.0.gemspec
+I, [2013-12-28T09:20:28.828351 #78916]  INFO -- : 0:  i18n (0.6.5) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/i18n-0.6.5.gemspec
+I, [2013-12-28T09:20:30.262492 #78916]  INFO -- : 0:  minitest (4.7.5) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/minitest-4.7.5.gemspec
+I, [2013-12-28T09:20:31.365712 #78916]  INFO -- : 0:  multi_json (1.8.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/multi_json-1.8.2.gemspec
+I, [2013-12-28T09:20:32.542739 #78916]  INFO -- : 0:  atomic (1.1.14) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/atomic-1.1.14.gemspec
+I, [2013-12-28T09:20:34.205738 #78916]  INFO -- : 0:  thread_safe (0.1.3) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/thread_safe-0.1.3.gemspec
+I, [2013-12-28T09:20:36.020691 #78916]  INFO -- : 0:  tzinfo (0.3.38) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/tzinfo-0.3.38.gemspec
+I, [2013-12-28T09:20:37.343291 #78916]  INFO -- : 0:  activesupport (4.0.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/activesupport-4.0.0.gemspec
+I, [2013-12-28T09:20:38.084628 #78916]  INFO -- : 0:  builder (3.1.4) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/builder-3.1.4.gemspec
+I, [2013-12-28T09:20:39.521006 #78916]  INFO -- : 0:  erubis (2.7.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/erubis-2.7.0.gemspec
+I, [2013-12-28T09:20:41.028307 #78916]  INFO -- : 0:  rack (1.5.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.5.2.gemspec
+I, [2013-12-28T09:20:41.747776 #78916]  INFO -- : 0:  rack-test (0.6.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/rack-test-0.6.2.gemspec
+I, [2013-12-28T09:20:43.189405 #78916]  INFO -- : 0:  actionpack (4.0.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/actionpack-4.0.0.gemspec
+I, [2013-12-28T09:20:44.432636 #78916]  INFO -- : 0:  mime-types (1.25) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/mime-types-1.25.gemspec
+I, [2013-12-28T09:20:45.056947 #78916]  INFO -- : 0:  polyglot (0.3.3) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/polyglot-0.3.3.gemspec
+I, [2013-12-28T09:20:46.775724 #78916]  INFO -- : 0:  treetop (1.4.15) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/treetop-1.4.15.gemspec
+I, [2013-12-28T09:20:48.252088 #78916]  INFO -- : 0:  mail (2.5.4) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/mail-2.5.4.gemspec
+I, [2013-12-28T09:20:48.981256 #78916]  INFO -- : 0:  actionmailer (4.0.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/actionmailer-4.0.0.gemspec
+I, [2013-12-28T09:20:49.987066 #78916]  INFO -- : 0:  activemodel (4.0.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/activemodel-4.0.0.gemspec
+I, [2013-12-28T09:20:50.760531 #78916]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2013-12-28T09:20:52.436708 #78916]  INFO -- : 0:  arel (4.0.1) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/arel-4.0.1.gemspec
+I, [2013-12-28T09:20:54.241144 #78916]  INFO -- : 0:  activerecord (4.0.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/activerecord-4.0.0.gemspec
+I, [2013-12-28T09:20:55.905896 #78916]  INFO -- : 0:  bcrypt-ruby (3.1.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/bcrypt-ruby-3.1.2.gemspec
+I, [2013-12-28T09:20:56.863697 #78916]  INFO -- : 0:  coffee-script-source (1.6.3) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/coffee-script-source-1.6.3.gemspec
+I, [2013-12-28T09:20:57.575189 #78916]  INFO -- : 0:  execjs (2.0.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/execjs-2.0.2.gemspec
+I, [2013-12-28T09:20:58.216384 #78916]  INFO -- : 0:  coffee-script (2.2.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/coffee-script-2.2.0.gemspec
+I, [2013-12-28T09:20:59.642828 #78916]  INFO -- : 0:  thor (0.18.1) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/thor-0.18.1.gemspec
+I, [2013-12-28T09:21:00.736968 #78916]  INFO -- : 0:  railties (4.0.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/railties-4.0.0.gemspec
+I, [2013-12-28T09:21:01.627323 #78916]  INFO -- : 0:  coffee-rails (4.0.1) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/coffee-rails-4.0.1.gemspec
+I, [2013-12-28T09:21:02.508569 #78916]  INFO -- : 0:  commonjs (0.2.7) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/commonjs-0.2.7.gemspec
+I, [2013-12-28T09:21:03.834826 #78916]  INFO -- : 0:  orm_adapter (0.5.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/orm_adapter-0.5.0.gemspec
+I, [2013-12-28T09:21:04.642076 #78916]  INFO -- : 0:  warden (1.2.3) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/warden-1.2.3.gemspec
+I, [2013-12-28T09:21:05.911115 #78916]  INFO -- : 0:  devise (3.2.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/devise-3.2.2.gemspec
+I, [2013-12-28T09:21:06.762721 #78916]  INFO -- : 0:  hike (1.2.3) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/hike-1.2.3.gemspec
+I, [2013-12-28T09:21:08.003184 #78916]  INFO -- : 0:  jbuilder (1.5.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/jbuilder-1.5.2.gemspec
+I, [2013-12-28T09:21:09.062581 #78916]  INFO -- : 0:  jquery-rails (3.0.4) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/jquery-rails-3.0.4.gemspec
+I, [2013-12-28T09:21:11.959533 #78916]  INFO -- : 0:  json (1.8.1) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/json-1.8.1.gemspec
+I, [2013-12-28T09:21:14.753523 #78916]  INFO -- : 0:  less (2.4.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/less-2.4.0.gemspec
+I, [2013-12-28T09:21:16.195034 #78916]  INFO -- : 0:  less-rails (2.4.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/less-rails-2.4.2.gemspec
+I, [2013-12-28T09:21:39.763655 #78916]  INFO -- : 0:  libv8 (3.16.14.3) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/libv8-3.16.14.3-x86_64-darwin-13.gemspec
+E, [2013-12-28T09:21:41.401525 #78916] ERROR -- : Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+
+    /Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/bin/ruby extconf.rb 
+checking for pg_config... no
+No pg_config... trying anyway. If building fails, please try again with
+ --with-pg-config=/path/to/pg_config
+checking for libpq-fe.h... no
+Can't find the 'libpq-fe.h header
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/bin/ruby
+	--with-pg
+	--without-pg
+	--with-pg-config
+	--without-pg-config
+	--with-pg_config
+	--without-pg_config
+	--with-pg-dir
+	--without-pg-dir
+	--with-pg-include
+	--without-pg-include=${pg-dir}/include
+	--with-pg-lib
+	--without-pg-lib=${pg-dir}/
+
+
+Gem files will remain installed in /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/gems/pg-0.17.0 for inspection.
+Results logged to /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/gems/pg-0.17.0/ext/gem_make.out
+
+/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:77:in `run'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:39:in `block in build'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tempfile.rb:324:in `open'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:19:in `build'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:148:in `block (2 levels) in build_extension'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:147:in `chdir'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:147:in `block in build_extension'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:146:in `synchronize'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:146:in `build_extension'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:180:in `block in build_extensions'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:177:in `each'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:177:in `build_extensions'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:667:in `build_extensions'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:225:in `install'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/bin/bundle:23:in `load'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/bin/bundle:23:in `<main>'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+I, [2013-12-28T09:22:23.400556 #79167]  INFO -- : 0:  rake (10.1.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/rake-10.1.0.gemspec
+I, [2013-12-28T09:22:23.400883 #79167]  INFO -- : 0:  i18n (0.6.5) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/i18n-0.6.5.gemspec
+I, [2013-12-28T09:22:23.401145 #79167]  INFO -- : 0:  minitest (4.7.5) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/minitest-4.7.5.gemspec
+I, [2013-12-28T09:22:23.401381 #79167]  INFO -- : 0:  multi_json (1.8.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/multi_json-1.8.2.gemspec
+I, [2013-12-28T09:22:23.401616 #79167]  INFO -- : 0:  atomic (1.1.14) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/atomic-1.1.14.gemspec
+I, [2013-12-28T09:22:23.401853 #79167]  INFO -- : 0:  thread_safe (0.1.3) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/thread_safe-0.1.3.gemspec
+I, [2013-12-28T09:22:23.402098 #79167]  INFO -- : 0:  tzinfo (0.3.38) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/tzinfo-0.3.38.gemspec
+I, [2013-12-28T09:22:23.402355 #79167]  INFO -- : 0:  activesupport (4.0.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/activesupport-4.0.0.gemspec
+I, [2013-12-28T09:22:23.402603 #79167]  INFO -- : 0:  builder (3.1.4) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/builder-3.1.4.gemspec
+I, [2013-12-28T09:22:23.402829 #79167]  INFO -- : 0:  erubis (2.7.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/erubis-2.7.0.gemspec
+I, [2013-12-28T09:22:23.403063 #79167]  INFO -- : 0:  rack (1.5.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.5.2.gemspec
+I, [2013-12-28T09:22:23.403343 #79167]  INFO -- : 0:  rack-test (0.6.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/rack-test-0.6.2.gemspec
+I, [2013-12-28T09:22:23.403600 #79167]  INFO -- : 0:  actionpack (4.0.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/actionpack-4.0.0.gemspec
+I, [2013-12-28T09:22:23.403898 #79167]  INFO -- : 0:  mime-types (1.25) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/mime-types-1.25.gemspec
+I, [2013-12-28T09:22:23.404152 #79167]  INFO -- : 0:  polyglot (0.3.3) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/polyglot-0.3.3.gemspec
+I, [2013-12-28T09:22:23.404386 #79167]  INFO -- : 0:  treetop (1.4.15) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/treetop-1.4.15.gemspec
+I, [2013-12-28T09:22:23.404625 #79167]  INFO -- : 0:  mail (2.5.4) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/mail-2.5.4.gemspec
+I, [2013-12-28T09:22:23.404883 #79167]  INFO -- : 0:  actionmailer (4.0.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/actionmailer-4.0.0.gemspec
+I, [2013-12-28T09:22:23.405115 #79167]  INFO -- : 0:  activemodel (4.0.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/activemodel-4.0.0.gemspec
+I, [2013-12-28T09:22:23.405368 #79167]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2013-12-28T09:22:23.405618 #79167]  INFO -- : 0:  arel (4.0.1) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/arel-4.0.1.gemspec
+I, [2013-12-28T09:22:23.405852 #79167]  INFO -- : 0:  activerecord (4.0.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/activerecord-4.0.0.gemspec
+I, [2013-12-28T09:22:23.406103 #79167]  INFO -- : 0:  bcrypt-ruby (3.1.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/bcrypt-ruby-3.1.2.gemspec
+I, [2013-12-28T09:22:23.406350 #79167]  INFO -- : 0:  coffee-script-source (1.6.3) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/coffee-script-source-1.6.3.gemspec
+I, [2013-12-28T09:22:23.406571 #79167]  INFO -- : 0:  execjs (2.0.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/execjs-2.0.2.gemspec
+I, [2013-12-28T09:22:23.406816 #79167]  INFO -- : 0:  coffee-script (2.2.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/coffee-script-2.2.0.gemspec
+I, [2013-12-28T09:22:23.407040 #79167]  INFO -- : 0:  thor (0.18.1) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/thor-0.18.1.gemspec
+I, [2013-12-28T09:22:23.407264 #79167]  INFO -- : 0:  railties (4.0.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/railties-4.0.0.gemspec
+I, [2013-12-28T09:22:23.407491 #79167]  INFO -- : 0:  coffee-rails (4.0.1) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/coffee-rails-4.0.1.gemspec
+I, [2013-12-28T09:22:23.407718 #79167]  INFO -- : 0:  commonjs (0.2.7) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/commonjs-0.2.7.gemspec
+I, [2013-12-28T09:22:23.407994 #79167]  INFO -- : 0:  orm_adapter (0.5.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/orm_adapter-0.5.0.gemspec
+I, [2013-12-28T09:22:23.408235 #79167]  INFO -- : 0:  warden (1.2.3) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/warden-1.2.3.gemspec
+I, [2013-12-28T09:22:23.408458 #79167]  INFO -- : 0:  devise (3.2.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/devise-3.2.2.gemspec
+I, [2013-12-28T09:22:23.408685 #79167]  INFO -- : 0:  hike (1.2.3) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/hike-1.2.3.gemspec
+I, [2013-12-28T09:22:23.408913 #79167]  INFO -- : 0:  jbuilder (1.5.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/jbuilder-1.5.2.gemspec
+I, [2013-12-28T09:22:23.409148 #79167]  INFO -- : 0:  jquery-rails (3.0.4) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/jquery-rails-3.0.4.gemspec
+I, [2013-12-28T09:22:23.409393 #79167]  INFO -- : 0:  json (1.8.1) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/json-1.8.1.gemspec
+I, [2013-12-28T09:22:23.409621 #79167]  INFO -- : 0:  less (2.4.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/less-2.4.0.gemspec
+I, [2013-12-28T09:22:23.409841 #79167]  INFO -- : 0:  less-rails (2.4.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/less-rails-2.4.2.gemspec
+I, [2013-12-28T09:22:23.410078 #79167]  INFO -- : 0:  libv8 (3.16.14.3) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/libv8-3.16.14.3-x86_64-darwin-13.gemspec
+E, [2013-12-28T09:22:23.579536 #79167] ERROR -- : Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+
+    /Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/bin/ruby extconf.rb 
+checking for pg_config... no
+No pg_config... trying anyway. If building fails, please try again with
+ --with-pg-config=/path/to/pg_config
+checking for libpq-fe.h... no
+Can't find the 'libpq-fe.h header
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/bin/ruby
+	--with-pg
+	--without-pg
+	--with-pg-config
+	--without-pg-config
+	--with-pg_config
+	--without-pg_config
+	--with-pg-dir
+	--without-pg-dir
+	--with-pg-include
+	--without-pg-include=${pg-dir}/include
+	--with-pg-lib
+	--without-pg-lib=${pg-dir}/
+
+
+Gem files will remain installed in /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/gems/pg-0.17.0 for inspection.
+Results logged to /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/gems/pg-0.17.0/ext/gem_make.out
+
+/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:77:in `run'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:39:in `block in build'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tempfile.rb:324:in `open'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:19:in `build'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:148:in `block (2 levels) in build_extension'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:147:in `chdir'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:147:in `block in build_extension'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:146:in `synchronize'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:146:in `build_extension'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:180:in `block in build_extensions'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:177:in `each'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:177:in `build_extensions'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:667:in `build_extensions'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:225:in `install'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \n/Users/markcentoni/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/bin/bundle:23:in `load'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/bin/bundle:23:in `<main>'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'  \n/Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+I, [2013-12-28T09:25:09.667452 #80096]  INFO -- : 0:  rake (10.1.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/rake-10.1.0.gemspec
+I, [2013-12-28T09:25:09.667911 #80096]  INFO -- : 0:  i18n (0.6.5) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/i18n-0.6.5.gemspec
+I, [2013-12-28T09:25:09.668296 #80096]  INFO -- : 0:  minitest (4.7.5) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/minitest-4.7.5.gemspec
+I, [2013-12-28T09:25:09.668570 #80096]  INFO -- : 0:  multi_json (1.8.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/multi_json-1.8.2.gemspec
+I, [2013-12-28T09:25:09.668841 #80096]  INFO -- : 0:  atomic (1.1.14) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/atomic-1.1.14.gemspec
+I, [2013-12-28T09:25:09.669059 #80096]  INFO -- : 0:  thread_safe (0.1.3) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/thread_safe-0.1.3.gemspec
+I, [2013-12-28T09:25:09.669261 #80096]  INFO -- : 0:  tzinfo (0.3.38) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/tzinfo-0.3.38.gemspec
+I, [2013-12-28T09:25:09.669516 #80096]  INFO -- : 0:  activesupport (4.0.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/activesupport-4.0.0.gemspec
+I, [2013-12-28T09:25:09.669712 #80096]  INFO -- : 0:  builder (3.1.4) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/builder-3.1.4.gemspec
+I, [2013-12-28T09:25:09.669921 #80096]  INFO -- : 0:  erubis (2.7.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/erubis-2.7.0.gemspec
+I, [2013-12-28T09:25:09.670121 #80096]  INFO -- : 0:  rack (1.5.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.5.2.gemspec
+I, [2013-12-28T09:25:09.670412 #80096]  INFO -- : 0:  rack-test (0.6.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/rack-test-0.6.2.gemspec
+I, [2013-12-28T09:25:09.670672 #80096]  INFO -- : 0:  actionpack (4.0.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/actionpack-4.0.0.gemspec
+I, [2013-12-28T09:25:09.670933 #80096]  INFO -- : 0:  mime-types (1.25) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/mime-types-1.25.gemspec
+I, [2013-12-28T09:25:09.671177 #80096]  INFO -- : 0:  polyglot (0.3.3) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/polyglot-0.3.3.gemspec
+I, [2013-12-28T09:25:09.671411 #80096]  INFO -- : 0:  treetop (1.4.15) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/treetop-1.4.15.gemspec
+I, [2013-12-28T09:25:09.671671 #80096]  INFO -- : 0:  mail (2.5.4) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/mail-2.5.4.gemspec
+I, [2013-12-28T09:25:09.671885 #80096]  INFO -- : 0:  actionmailer (4.0.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/actionmailer-4.0.0.gemspec
+I, [2013-12-28T09:25:09.672101 #80096]  INFO -- : 0:  activemodel (4.0.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/activemodel-4.0.0.gemspec
+I, [2013-12-28T09:25:09.672336 #80096]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2013-12-28T09:25:09.672550 #80096]  INFO -- : 0:  arel (4.0.1) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/arel-4.0.1.gemspec
+I, [2013-12-28T09:25:09.672788 #80096]  INFO -- : 0:  activerecord (4.0.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/activerecord-4.0.0.gemspec
+I, [2013-12-28T09:25:09.673019 #80096]  INFO -- : 0:  bcrypt-ruby (3.1.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/bcrypt-ruby-3.1.2.gemspec
+I, [2013-12-28T09:25:09.673232 #80096]  INFO -- : 0:  coffee-script-source (1.6.3) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/coffee-script-source-1.6.3.gemspec
+I, [2013-12-28T09:25:09.673454 #80096]  INFO -- : 0:  execjs (2.0.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/execjs-2.0.2.gemspec
+I, [2013-12-28T09:25:09.673656 #80096]  INFO -- : 0:  coffee-script (2.2.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/coffee-script-2.2.0.gemspec
+I, [2013-12-28T09:25:09.673873 #80096]  INFO -- : 0:  thor (0.18.1) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/thor-0.18.1.gemspec
+I, [2013-12-28T09:25:09.674078 #80096]  INFO -- : 0:  railties (4.0.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/railties-4.0.0.gemspec
+I, [2013-12-28T09:25:09.674300 #80096]  INFO -- : 0:  coffee-rails (4.0.1) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/coffee-rails-4.0.1.gemspec
+I, [2013-12-28T09:25:09.674562 #80096]  INFO -- : 0:  commonjs (0.2.7) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/commonjs-0.2.7.gemspec
+I, [2013-12-28T09:25:09.674787 #80096]  INFO -- : 0:  orm_adapter (0.5.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/orm_adapter-0.5.0.gemspec
+I, [2013-12-28T09:25:09.674995 #80096]  INFO -- : 0:  warden (1.2.3) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/warden-1.2.3.gemspec
+I, [2013-12-28T09:25:09.675243 #80096]  INFO -- : 0:  devise (3.2.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/devise-3.2.2.gemspec
+I, [2013-12-28T09:25:09.675484 #80096]  INFO -- : 0:  hike (1.2.3) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/hike-1.2.3.gemspec
+I, [2013-12-28T09:25:09.675705 #80096]  INFO -- : 0:  jbuilder (1.5.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/jbuilder-1.5.2.gemspec
+I, [2013-12-28T09:25:09.675916 #80096]  INFO -- : 0:  jquery-rails (3.0.4) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/jquery-rails-3.0.4.gemspec
+I, [2013-12-28T09:25:09.676149 #80096]  INFO -- : 0:  json (1.8.1) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/json-1.8.1.gemspec
+I, [2013-12-28T09:25:09.676363 #80096]  INFO -- : 0:  less (2.4.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/less-2.4.0.gemspec
+I, [2013-12-28T09:25:09.676577 #80096]  INFO -- : 0:  less-rails (2.4.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/less-rails-2.4.2.gemspec
+I, [2013-12-28T09:25:09.676809 #80096]  INFO -- : 0:  libv8 (3.16.14.3) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/libv8-3.16.14.3-x86_64-darwin-13.gemspec
+I, [2013-12-28T09:25:12.662588 #80096]  INFO -- : 0:  pg (0.17.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/pg-0.17.0.gemspec
+I, [2013-12-28T09:25:12.663051 #80096]  INFO -- : 0:  bundler (1.5.1) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec
+I, [2013-12-28T09:25:14.749198 #80096]  INFO -- : 0:  tilt (1.4.1) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/tilt-1.4.1.gemspec
+I, [2013-12-28T09:25:16.190391 #80096]  INFO -- : 0:  sprockets (2.10.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/sprockets-2.10.0.gemspec
+I, [2013-12-28T09:25:17.542162 #80096]  INFO -- : 0:  sprockets-rails (2.0.1) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/sprockets-rails-2.0.1.gemspec
+I, [2013-12-28T09:25:23.230471 #80096]  INFO -- : 0:  rails (4.0.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/rails-4.0.0.gemspec
+I, [2013-12-28T09:25:24.930196 #80096]  INFO -- : 0:  rails_serve_static_assets (0.0.1) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/rails_serve_static_assets-0.0.1.gemspec
+I, [2013-12-28T09:25:26.900338 #80096]  INFO -- : 0:  rails_stdout_logging (0.0.3) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/rails_stdout_logging-0.0.3.gemspec
+I, [2013-12-28T09:25:28.238412 #80096]  INFO -- : 0:  rails_12factor (0.0.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/rails_12factor-0.0.2.gemspec
+I, [2013-12-28T09:25:32.917426 #80096]  INFO -- : 0:  rdoc (3.12.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/rdoc-3.12.2.gemspec
+I, [2013-12-28T09:25:33.752964 #80096]  INFO -- : 0:  ref (1.0.5) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/ref-1.0.5.gemspec
+I, [2013-12-28T09:25:35.200510 #80096]  INFO -- : 0:  rest-client (1.6.7) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/rest-client-1.6.7.gemspec
+I, [2013-12-28T09:25:36.957888 #80096]  INFO -- : 0:  sass (3.2.12) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/sass-3.2.12.gemspec
+I, [2013-12-28T09:25:38.777580 #80096]  INFO -- : 0:  sass-rails (4.0.1) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/sass-rails-4.0.1.gemspec
+I, [2013-12-28T09:25:40.400528 #80096]  INFO -- : 0:  sdoc (0.3.20) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/sdoc-0.3.20.gemspec
+I, [2013-12-28T09:25:43.997349 #80096]  INFO -- : 0:  sqlite3 (1.3.8) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/sqlite3-1.3.8.gemspec
+I, [2013-12-28T09:25:51.024215 #80096]  INFO -- : 0:  therubyracer (0.12.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/therubyracer-0.12.0.gemspec
+I, [2013-12-28T09:25:53.380172 #80096]  INFO -- : 0:  turbolinks (1.3.0) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/turbolinks-1.3.0.gemspec
+I, [2013-12-28T09:25:55.469197 #80096]  INFO -- : 0:  twitter-bootstrap-rails (2.2.8) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/twitter-bootstrap-rails-2.2.8.gemspec
+I, [2013-12-28T09:25:56.972812 #80096]  INFO -- : 0:  uglifier (2.3.1) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/uglifier-2.3.1.gemspec
+I, [2013-12-28T09:25:58.402701 #80096]  INFO -- : 0:  underscore-rails (1.5.2) from /Users/markcentoni/.rvm/gems/ruby-2.0.0-p353/specifications/underscore-rails-1.5.2.gemspec

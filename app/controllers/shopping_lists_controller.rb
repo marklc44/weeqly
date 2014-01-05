@@ -43,6 +43,7 @@ class ShoppingListsController < ApplicationController
 		@shopping_list = ShoppingList.find(params[:id])
 		@recipes = @shopping_list.recipes
 
+		
 	end
 
 	def destroy

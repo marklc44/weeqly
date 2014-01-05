@@ -6,6 +6,7 @@
 	</div><!--end row-->
 	<div class="row-fluid">
 		<div class="span12">
+			<a href="#send-email-modal" role="button" class="btn btn-primary" data-toggle="modal">Email this list</a>
 			<h3>Ingredients on this list</h3>
 			<ul>
 			<% @recipes.each do |recipe| %>
@@ -17,13 +18,14 @@
 		</div>
 	</div><!--end row-->
 	<div class="row-fluid">
-		<div class="span12">
+		<div class="span12 content">
 			<h3>Recipes on this Shopping List</h3>
 			<ul>
 			<% @recipes.each do |recipe| %>
 				<li><a href="<%= recipe_path(recipe.yummly_id) %>"><%= recipe.name %></a> <%= button_to "Remove from list", recipe_path(recipe), :method => :delete, :class => "btn btn-danger" %></li>
 			<% end %>
 			</ul>
+			<a href="#send-email-modal" role="button" class="btn btn-primary" data-toggle="modal">Email this list</a>
 			<a href="#delete-list-modal" class="btn btn-danger btn-mini" data-toggle="modal">Delete this list</a>
 		</div><!--end recipe list-->
 		<div id="delete-list-modal" class="modal hide fade" style="z-index:999999;">
@@ -35,6 +37,18 @@
 				<%= button_to "Delete this List", shopping_list_path(@shopping_list), :method => :delete, :class => "btn btn-danger btn-mini" %>
 			</div>
 		</div>
+		<div id="send-email-modal" class="modal hide fade">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			</div>
+			<div class="modal-body">
+				<div class="alert alert-success hide">
+					<p>Your shopping list was sent!</p>
+				</div>
+				<h3>Email this Shopping List to yourself:</h3>
+				<a id="send-shopping-list-btn" href="<%= @shopping_list.send_email %>" class="btn">Email this list</a>
+			</div>
+		</div><!--end modal-->
 	</div>
 </div><!--end container-->
 <script>
@@ -43,5 +57,10 @@
 			e.preventDefault();
 			$(this).parent().addClass('hide');
 		});
+		$('#send-shopping-list-btn').click(function(e) {
+			e.preventDefault();
+			$(this).parent().find('.alert').removeClass('hide');
+		});
+		
 	});
 </script>
