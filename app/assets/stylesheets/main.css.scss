@@ -18,7 +18,8 @@ body {
 }
 .brand {
 	color:gold;
-	font-family:'Pacifico', sans-serif;
+	font-family:'Great Vibes', sans-serif;
+	font-size:3em;
 }
 .navbar {
 	position:fixed;
@@ -40,12 +41,16 @@ body {
 }
 .index .hero-unit {
 	position:relative;
-	background:url(http://static.yummly.com/promoted/homepage/2013-11-11/hero.jpg) top center no-repeat;
+	/*background:url(http://static.yummly.com/promoted/homepage/2013-11-11/hero.jpg) top center no-repeat;*/
+	background:url(http://bs4.yummly.com.global.prod.fastly.net/wp-content/uploads/2013/04/hero-about1.jpg) top center no-repeat;
 	background-size: cover;
 	color:#fff;
 	text-align:center;
 	margin-bottom:0;
 	overflow:hidden;
+}
+.hero-unit h1.brand {
+	font-size:5em;
 }
 .hero-unit h1, .hero-unit p, .hero-unit h2 {
 	text-shadow:2px 2px 8px #111;
