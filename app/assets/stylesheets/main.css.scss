@@ -107,13 +107,13 @@ body {
 }
 .results .img-container {
 	width:100%;
-	height:150px;
+	height:200px;
 	overflow:hidden;
 	margin-bottom:0;
 }
 .results .img-container img {
 	width:100%;
-	min-height:150px;
+	min-height:200px;
 }
 .results .details {
 	font-size:.8em;
@@ -289,5 +289,24 @@ footer {
 	margin-bottom:2em;
 }
 
+/*======= Controls & Buttons =========*/
+a.remove-line {
+	text-decoration:none;
+	color:#666;
+}
+a.remove-line > i {
+	display:none;
+	margin-left:1em;
+}
+a.remove-line:hover {
+	color:#666;
+}
+a.remove-line:hover > i {
+	display:inline-block;
+	color:#db0a17;
+}
+.result-line form {
+	margin-top:.5em;
+}
 
 
